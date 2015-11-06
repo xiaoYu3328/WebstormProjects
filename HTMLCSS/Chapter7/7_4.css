@@ -1,0 +1,25 @@
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.sized{
+    width: 230px;
+    height: 700px;
+}
+.bottom-right{
+    bottom: 0;
+    right: 0;
+}
+
+.offset{
+    left: 45px;
+    top: 30px;
+}

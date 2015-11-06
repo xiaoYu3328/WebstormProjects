@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>
+    Atomic
+</h1>
+<style>
+    .static{
+        position:static;
+    }
+    .overlap{
+        margin-top:-22px;
+    }
+    .relative{
+        position: relative;
+    }
+    .fixed{
+        position: fixed;
+        margin-top:-16px ;
+    }
+    .absolute{
+        position: absolute;
+        top:65px;
+    }
+
+</style>
+<div>
+    Layered
+    <p class="static">Static Overlapping Block</p>
+
+    <p class="static overlap">Static Overlapping Block</p>
+    <table class="static overlap">
+        <tr>
+            <td>Overlapping Table</td>
+        </tr>
+    </table>
+</div>
+<div>Atomic
+    <p class="relative">Relative Overlapping Block</p>
+    <p class="fixed">Fixed Overlapping Block</p>
+    <p class="absolute">Absolute Overlapping Block</p>
+</div>
+</body>
+</html>

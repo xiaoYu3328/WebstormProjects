@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="7_4.css" rel="stylesheet" type="text/css"/>
+
+    <title></title>
+</head>
+<body>
+<h1>Closest Positioned Ancestor</h1>
+<div class="static ggp">Non-positioned Great-grandparent
+    <div class="absolute sized bottom-right box1">Absolute #1 Bottom Right
+    <em class="absolute offset box2">Nested Absolute</em> </div>
+    <div class="relative gp">Positioned Grandparent
+        <div class="static parent">Non-positioned Parent
+            <span class="absolute sized bottom-right box1">Absolute #2 Bottom Right
+                <em class="absolute offset box2">Nested Absolute</em>
+            </span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

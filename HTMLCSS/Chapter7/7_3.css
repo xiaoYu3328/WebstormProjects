@@ -1,0 +1,43 @@
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    left: auto;
+    top: auto;
+    bottom: auto;
+    right: auto;
+}
+
+.absolute{
+    position: absolute;
+    left: 35%;
+    top: -40%;
+}
+
+.fixed1{
+    position: fixed;
+    z-index: 20;
+    right: 5px;
+    bottom: 0px;
+}
+
+.fixed2{
+    position:fixed;
+    z-index: 30;
+    right: 0px;
+    bottom: 0;
+    width:100px;
+    margin: 0;
+}
+
+.offset{
+    bottom: -15px;
+    left: -20px;
+}
+
+#canvas{
+    background-color: gold;
+}
+
